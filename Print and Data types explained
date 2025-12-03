@@ -1,0 +1,14 @@
+print("Tobi")
+print("Enter")
+print("Hello world")#This is a string
+print(4)#This is an integer
+print(4.4)#This is a real/float
+print("^")#This is a character
+print(True)#This is Boolean
+#Data types
+#CRIBS
+#C = Character e.g. "a"
+#R = Real/float e.g. 4.66
+#I = Integer e.g. 222
+#B = Boolean e.g. "True"
+#S = String e.g. "Hello"
