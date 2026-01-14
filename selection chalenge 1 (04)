@@ -1,0 +1,8 @@
+numb1 = int(input("enter a number"))
+numb2 = int(input("enter another number"))
+
+if numb1 > numb2:
+    print(numb2,numb1)
+
+else:
+    print(numb1,numb2)
