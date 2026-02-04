@@ -1,0 +1,8 @@
+count = 0
+invite = "y"
+while invite == "y":
+    name = input("enter a name who you want to invite")
+    print(name,"has now been invited")
+    count = count + 1
+    invite = input("do you want to invite someone else y or n").lower()
+print(count)
