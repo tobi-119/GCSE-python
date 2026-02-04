@@ -1,0 +1,4 @@
+numb = 0
+while numb <= 4:
+    numb = int(input("enhter a number"))
+    print("the last number you entered was",numb)
