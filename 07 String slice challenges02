@@ -1,0 +1,5 @@
+firstname = input("what is your name")
+secondname = input("what is your name")
+fullname = firstname + " " + secondname
+print(fullname)
+print(len(fullname))
