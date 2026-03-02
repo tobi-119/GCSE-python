@@ -1,0 +1,7 @@
+fnursery = input("sing the first line of a nursery rhyme")
+length = len(fnursery)
+print("This has",length,"letters in it")
+snumb = int(input("enter a starting number"))
+enumb = int(input("enter a starting number"))
+ 
+print(fnursery[snumb:enumb])
