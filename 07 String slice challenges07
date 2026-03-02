@@ -1,0 +1,4 @@
+name = input("enter your first name").lower()
+vowels = ["a" , "e" , "i" , "o" , "u"]
+if name[0] in vowels:
+    print(name)
