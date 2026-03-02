@@ -1,0 +1,8 @@
+name = input("enter your first name")
+if len(name) <=5:
+    secondname = input("enter your second name")
+    bothname = name+secondname
+    print(name.upper())
+
+else:
+    print(name.lower())
