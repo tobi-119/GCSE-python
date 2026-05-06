@@ -1,0 +1,23 @@
+import random
+numb1 = random.randint(1,5)
+guess = int(input("guess the number"))
+count = 1
+while guess != numb1:
+    if numb1 >= guess:
+        print("too low")
+        count = count +1
+        guess = int(input("guess the number"))
+        
+    elif numb1 <= guess:
+        print("too high")
+        count = count +1
+        guess = int(input("guess the number"))
+
+
+else:
+    print("you guessed the right number")
+    print("it took you",count,"times to guess")
+   
+    
+    
+
