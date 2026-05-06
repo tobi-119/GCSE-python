@@ -1,0 +1,6 @@
+import random
+
+choices = ["no","yes","maybe","possibly","one day","ask again later"]
+question = input("ask a yes or no question")
+selected = random.choice(choices)
+print(selected)
