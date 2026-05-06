@@ -1,0 +1,8 @@
+import random
+
+roll = input("write space to roll or x to exit")
+
+while roll == "space":
+    numb = random.randint(1,6)
+    print(numb)
+    roll = input("write space to roll or x to exit")
