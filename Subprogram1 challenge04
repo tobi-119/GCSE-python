@@ -1,0 +1,20 @@
+def menu():
+    options = ["1) creative","2) survival","3) hardcore","4) Adventure","5) Exit"]
+    print(options)
+    choice = 7
+    while choice >=6:
+        choice = int(input("choose option 1,2,3,4 or 5"))
+        
+        if choice == 1:
+            print("creative selected")
+        elif choice == 2:
+            print("survival selected")
+        elif choice == 3:
+            print("hardcore selected")
+        elif choice == 4:
+            print("adventure selected")
+        elif choice == 5:
+            print("exiting")
+        else:
+            print("invalid")
+menu()
