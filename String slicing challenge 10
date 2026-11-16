@@ -1,0 +1,16 @@
+#String slicing challenge10
+#Write some code that asks a user..
+#..to enter their first name..
+#..then to enter their last name..
+#..then to enter a nick name.
+#It then displays the number of characters..
+#..in the first name, then last name
+#..then displays the whole name back
+#..with the nick name in the middle
+firstname = input("what is your first name")
+lastname = input("what is your last name")
+nickname = input("what is your nick name")
+fullname = firstname + lastname
+length = len(fullname)
+print(length)
+print(firstname + nickname + lastname)
