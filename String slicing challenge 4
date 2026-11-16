@@ -1,0 +1,11 @@
+#String slicing challenge4
+#The following code it meant...
+#..display the first name and..
+#..surname on separate lines
+#Can you fix it?
+
+boxer = "Muhammad Ali"
+firstName = boxer[0:8]
+surname = boxer[9:12]
+print(firstName)
+print(surname)
