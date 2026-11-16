@@ -1,0 +1,10 @@
+#String slicing challenge5
+#The following code it meant...
+#..display "Muhammad THE GOAT Ali"
+#run it then fix it
+
+boxer = "Muhammad Ali"
+status = " THE GOAT "
+firstName = boxer[0:8]
+surname = boxer[9:12]
+print(firstName + status + surname)
