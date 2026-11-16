@@ -1,0 +1,9 @@
+#String slicing challenge8
+#The code below is meant to..
+#..slice out THE CHAMP and..
+#..display it (only)
+#Can you fix it?
+
+boxer = "Muhammad THE CHAMP Ali"
+nickname = boxer[9:19]
+print(nickname)
