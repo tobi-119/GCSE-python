@@ -1,0 +1,24 @@
+#String slicing challenge9
+#The code below allows a user..
+#to enter a UK mobile number..
+#..that starts with a zero.
+#If it does, the code converts..
+#..the number entered to the..
+#..international code +44.
+#e.g. 07956111222 becomes..
+#..+447945111222.
+#But it doesn't work.
+#Can you fix it?
+
+ukNumber = input("enter UK number>>>")
+
+preFix = "+44"
+
+if ukNumber[0] == "0":
+  ukNumber = ukNumber[1:]
+  ukNumber = preFix + ukNumber
+  print("International: ",ukNumber)
+  
+
+else:
+  print("Not recognised")
