@@ -1,0 +1,10 @@
+#String slicing challenge3
+#The following code it meant...
+#..display the number of characters..
+#..in the boxer's name..i.e. 12
+#..(including the space)
+#Can you fix it?
+
+boxer = "muhammad Ali"
+length = len(boxer)
+print(length)
