@@ -1,0 +1,8 @@
+#String slicing challenge1
+#The code below is meant to..
+#..display just "Ali"
+#test it then fix it
+
+boxer = "Muhammad Ali"
+surname = boxer[9:12]
+print(surname)
