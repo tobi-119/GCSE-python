@@ -1,0 +1,8 @@
+notepad= open("names.txt","w")
+notepad.write("tobi\n")
+notepad.write("tob\n")
+notepad.write("tobx\n")
+notepad.write("tobe\n")
+notepad.write("toby\n")
+notepad.close()
+print("open the file")
